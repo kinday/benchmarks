@@ -1,0 +1,9 @@
+{
+  "name": "benchmarks",
+  "author": "Leonard Kinday <leonard@kinday.ru>",
+  "private": true,
+  "dependencies": {
+    "benny": "^3.6.14",
+    "ramda": "^0.27.1"
+  }
+}
