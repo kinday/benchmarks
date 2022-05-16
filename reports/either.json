@@ -1,0 +1,39 @@
+{
+  "name": "Either",
+  "date": "2022-05-16T19:54:51.215Z",
+  "version": null,
+  "results": [
+    {
+      "name": "Baseline",
+      "ops": 1036684017,
+      "margin": 0.09,
+      "percentSlower": 0
+    },
+    {
+      "name": "Class implementation",
+      "ops": 156087335,
+      "margin": 0.21,
+      "percentSlower": 84.94
+    },
+    {
+      "name": "Function implementation",
+      "ops": 113987484,
+      "margin": 0.49,
+      "percentSlower": 89
+    },
+    {
+      "name": "Object implementation",
+      "ops": 976503825,
+      "margin": 0.23,
+      "percentSlower": 5.81
+    }
+  ],
+  "fastest": {
+    "name": "Baseline",
+    "index": 0
+  },
+  "slowest": {
+    "name": "Function implementation",
+    "index": 2
+  }
+}

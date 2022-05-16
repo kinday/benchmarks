@@ -55,5 +55,11 @@ Benny.suite(
   }),
 
   Benny.cycle(),
-  Benny.complete()
+  Benny.complete(),
+  Benny.save({
+    details: true,
+    file: __filename.replace(__dirname, '').replace('.js', ''),
+    folder: 'reports',
+    format: 'json',
+  })
 )
