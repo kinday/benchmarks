@@ -3,7 +3,7 @@
   "author": "Leonard Kinday <leonard@kinday.ru>",
   "private": true,
   "dependencies": {
-    "benny": "^3.6.14",
+    "benny": "^3.7.1",
     "ramda": "^0.27.1"
   }
 }
